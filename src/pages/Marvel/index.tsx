@@ -7,6 +7,10 @@ export default function Marvel(){
             <nav className={styles.menu}>
                 
             </nav>
+         
+<section>
+    
+</section>
         </main>
     );
 }
