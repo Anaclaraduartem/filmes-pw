@@ -6,6 +6,12 @@ busca:string,
 
 export default function Buscador({busca,setBusca}: Props){
     return(
-        <div>Buscador</div>
+        <div>
+        <input
+            value={busca}
+            onChance =(evento) => setBusca(evento.target.value)}
+            />
+            <CgSearch/>
+        </div>
     )
 }
